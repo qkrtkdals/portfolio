@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    /*letter-spacing:-0.05em*/
+    letter-spacing:0
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th, td {word-break:break-all;}
+
+a, a:hover {text-decoration:none; color:#222;}
+button,
+input[type=button] {cursor:pointer;}
+
+/* 
+    WEB FONT setting : 
+	NanumSquare Bold, Light / Noto Sans CJKkr Bold, Medium, Regular, DemiLight, Light
+*/
+
+@font-face {
+ font-family: 'Nanum Square';
+ font-weight: 300;
+ src: url(../fonts/NanumSquareL.eot);
+ src: url(../fonts/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+      url(../fonts/NanumSquareL.woff) format('woff'),
+      url(../fonts/NanumSquareL.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'Nanum Square';
+ font-weight: 400;
+ src: url(../fonts/NanumSquareR.eot);
+ src: url(../fonts/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+      url(../fonts/NanumSquareR.woff) format('woff'),
+      url(../fonts/NanumSquareR.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'Nanum Square';
+ font-weight: 700;
+ src: url(../fonts/NanumSquareB.eot);
+ src: url(../fonts/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+      url(../fonts/NanumSquareB.woff) format('woff'),
+      url(../fonts/NanumSquareB.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/NotoSansKR-Light-Hestia.eot);
+    src: url(../fonts/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Light-Hestia.woff) format('woff'),
+    url(../fonts/NotoSansKR-Light-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 350;
+    src: url(../fonts/NotoSansKR-DemiLight-Hestia.eot);
+    src: url(../fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+    url(../fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/NotoSansKR-Regular-Hestia.eot);
+    src: url(../fonts/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Regular-Hestia.woff) format('woff'),
+    url(../fonts/NotoSansKR-Regular-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/NotoSansKR-Medium-Hestia.eot);
+    src: url(../fonts/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Medium-Hestia.woff) format('woff'),
+    url(../fonts/NotoSansKR-Medium-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/NotoSansKR-Bold-Hestia.eot);
+    src: url(../fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Bold-Hestia.woff) format('woff'),
+    url(../fonts/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}

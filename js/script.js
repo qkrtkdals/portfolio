@@ -17,7 +17,13 @@ var smPortfolio = (function (d, w, $) {
   };
 
   smPortfolio.init = function () {
-    $.getJSON('../json/data.json', getJSONInit);
+    // 로컬용
+    // var jsonSrc = '../json/data.json';
+
+    // 운영용
+    var jsonSrc = '//raw.githubusercontent.com/qkrtkdals/portfolio/master/json/data.json';
+
+    $.getJSON(jsonSrc, getJSONInit);
     test();
   };
 

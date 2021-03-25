@@ -1,0 +1,74 @@
+@mixin clearfix() {
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+
+$mainColor: #161616;
+$subColor: #8d8d8d;
+$containerWidth: 1250px;
+
+#header {
+    position: relative;
+    height: 178px;
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -16px;
+        margin-left: -54px;
+        display: inline-block;
+    }
+
+    .gnb {
+        @include clearfix;
+        width: $containerWidth;
+        height: 100%;
+        margin: 0 auto;
+
+        li {
+            float: left;
+            height: 100%;
+
+            &:first-child {
+                margin: 0 234px 0 465px;
+            }
+
+            &:last-child {
+                margin-left: 275px;
+            }
+
+            a {
+                display: block;
+                height: 100%;
+                line-height: 178px;
+                font-size: 13px;
+                font-weight: bold;
+                color: $subColor;
+            }
+        }
+    }
+}
+
+body {
+    font-family: 'Noto Sans KR', dotum, snas-serif;
+    min-width: $containerWidth;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.2px;
+    color: #161616;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.content {
+    width: $containerWidth;
+    margin: 0 auto;
+}

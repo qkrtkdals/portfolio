@@ -1,0 +1,105 @@
+#header {
+  position: relative;
+  height: 178px;
+}
+
+#header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -54px;
+  display: inline-block;
+}
+
+#header .gnb {
+  width: 1250px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#header .gnb:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#header .gnb li {
+  float: left;
+  height: 100%;
+}
+
+#header .gnb li:first-child {
+  margin: 0 234px 0 465px;
+}
+
+#header .gnb li:last-child {
+  margin-left: 275px;
+}
+
+#header .gnb li a {
+  display: block;
+  height: 100%;
+  line-height: 178px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #8d8d8d;
+}
+
+body {
+  font-family: 'Noto Sans KR', dotum, snas-serif;
+  min-width: 1250px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.2px;
+  color: #161616;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.content {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.content {
+  text-align: center;
+}
+
+.info {
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.info img {
+  display: block;
+  margin-bottom: 75px;
+}
+
+.info ul li {
+  height: 23px;
+  line-height: 23px;
+  padding-left: 40px;
+  font-size: 23px;
+  letter-spacing: -0.5px;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.info ul li.tel {
+  background-image: url(../images/contact/ico_t.png);
+}
+
+.info ul li.email {
+  background-image: url(../images/contact/ico_e.png);
+}
+
+.info ul li:not(:first-child) {
+  margin-top: 16px;
+}

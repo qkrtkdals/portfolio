@@ -1,13 +1,28 @@
 {
     "list": [
         {
-            "name": "가"
+            "title": "SSG Live<br>- Intro video",
+            "date": "December, 2020"
         },
         {
-            "name": "나"
+            "title": "2SSG Live<br>- Intro video",
+            "date": "December, 2020"
         },
         {
-            "name": "다"
+            "title": "3SSG Live<br>- Intro video",
+            "date": "December, 2020"
+        },
+        {
+            "title": "4SG Live<br>- Intro video",
+            "date": "December, 2020"
+        },
+        {
+            "title": "5SSG Live<br>- Intro video",
+            "date": "December, 2020"
+        },
+        {
+            "title": "6SSG Live<br>- Intro video",
+            "date": "December, 2020"
         }
     ]
 }

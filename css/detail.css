@@ -61,6 +61,11 @@ li {
   list-style: none;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 .blind {
   position: absolute;
   width: 1px;
@@ -72,6 +77,28 @@ li {
 .content {
   width: 1250px;
   margin: 0 auto;
+}
+
+.bottom {
+  height: 650px;
+  text-align: center;
+}
+
+.bottom .btnTop {
+  position: fixed;
+  left: 50%;
+  bottom: 410px;
+  margin-left: -60px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.bottom .btnTop.down {
+  bottom: 50px;
+}
+
+.bottom > img {
+  padding-top: 415px;
 }
 
 .container {

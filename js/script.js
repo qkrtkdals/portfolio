@@ -65,6 +65,29 @@ var smPortfolio = (function (d, w, $) {
     $('.styleFrame .styleInfo').html(styleHTML);
   };
 
+  // var goTopBtn = function() {
+  //   alert(11)
+  //   // $('.btnTop').click(function (event) {
+  //   //   console.log(111)
+  //   //   event.preventDefault();
+  //   //   $('html, body').animate({ scrollTop: 0 }, 300);
+  //   // });
+
+  //    $(window).scroll(function () {
+  //     if ($(this).scrollTop() > 200) {
+  //       $('.btnTop').fadeIn(1000);
+  //     } else {
+  //       $('.btnTop').fadeOut(1000);
+  //     }
+
+  //     if ($(this).scrollTop() === $(document).height() - $(window).height()) {
+  //       $('.btnTop').removeClass('down');
+  //     } else {
+  //       $('.btnTop').addClass('down');
+  //     }
+  //   });
+  // };
+
   smPortfolio.init = function () {
     // 로컬용
     // var jsonSrc = '../json/data.json';

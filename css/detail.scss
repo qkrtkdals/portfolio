@@ -106,7 +106,7 @@
             background-position: -10px -137px;
         }
 
-        ul {
+        ul.frame {
             @include clearfix;
 
             li {
@@ -138,7 +138,7 @@
             background-position: -10px -90px;
         }
 
-        ul {
+        ul.frame {
             @include clearfix;
 
             li {
@@ -153,6 +153,61 @@
                 &:nth-child(odd) {
                     margin-right: 2px;
                 }
+            }
+        }
+
+        .styleInfo {
+            margin-top: 75px;
+
+            ul {
+                li {
+                    font-weight: bold;
+                    font-size: 20px;
+                    letter-spacing: -2px;
+
+                    &:not(:first-child) {
+                        margin-top: 6px;
+                    }
+
+                    &.motion {
+                        margin: 50px 0;
+                    }
+                }
+
+                + p {
+                    margin-top: 75px;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    margin: 165px 0;
+    text-align: center;
+
+    span {
+        display: block;
+        margin-top: 12px;
+        font-size: 12px;
+    }
+}
+
+.recommend {
+    text-align: center;
+
+    ul {
+        @include clearfix;
+        margin-top: 25px;
+
+        li {
+            float: left;
+            width: 245px;
+            height: 199px;
+            background-color: $mainColor;
+
+            &:not(:first-child) {
+                margin-left: 6px;
             }
         }
     }

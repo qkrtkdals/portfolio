@@ -44,19 +44,33 @@ var smPortfolio = (function (d, w, $) {
       '<li>Character Design & Compositing - ' + obj[0].visualDetail.motion.design2 + '</li>' +
       '<li>Sound - ' + obj[0].visualDetail.motion.sound + '</li>';
 
+    var styleHTML =
+      '<ul>' +
+        '<li>CLIENT  - ' + obj[0].visualDetail.client.toUpperCase() + '</li>' +
+        '<li>PRODUCTION - ' + obj[0].visualDetail.production.toUpperCase() + '</li>' +
+        '<li class="motion">MOTION GRAPHIC - ' + obj[0].visualDetail.motion.motionGraphic.toUpperCase() + '</li>' +
+        '<li>DIRECTOR - ' + obj[0].visualDetail.motion.director.toUpperCase() + '</li>' +
+        '<li>DESIGN - ' + obj[0].visualDetail.motion.design.toUpperCase() + '</li>' +
+        '<li>ANIMATION - ' + obj[0].visualDetail.motion.animation.toUpperCase() + '</li>' +
+        '<li>CHARACTER DESIGN & COMPOSITING - ' + obj[0].visualDetail.motion.design2.toUpperCase() + '</li>' +
+        '<li>SOUND - ' + obj[0].visualDetail.motion.sound.toUpperCase() + '</li>' +
+      '</ul>' +
+      '<p>' + obj[0].visualDetail.text + '</p>';
+
     $('.visualTitle').html('<p>' + obj[0].title + '</p><span>' + obj[0].subTitle + '</span>');
     $('.visualDetail .client p').text(obj[0].visualDetail.client);
     $('.visualDetail .production p').text(obj[0].visualDetail.production);
     $('.visualDetail .motion ul').html(motionHTML);
     $('.visualDetail .column:last-child').html(obj[0].visualDetail.text);
+    $('.styleFrame .styleInfo').html(styleHTML);
   };
 
   smPortfolio.init = function () {
     // 로컬용
-    // var jsonSrc = '../json/data.json';
+    var jsonSrc = '../json/data.json';
 
     // 운영용
-    var jsonSrc = '//raw.githubusercontent.com/qkrtkdals/portfolio/master/json/data.json';
+    // var jsonSrc = '//raw.githubusercontent.com/qkrtkdals/portfolio/master/json/data.json';
 
     includeHTML();
 

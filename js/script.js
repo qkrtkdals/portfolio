@@ -8,12 +8,16 @@ var smPortfolio = (function (d, w, $) {
   var getJSONInit = function (data) {
     var html = '';
     $.each(data.list, function (itemIndex, item) {
-      html += '<li>';
-      html += '<p>' + item.name + '</p>';
+      html += '<li class="thumbItem">';
+      html += '    <img src="" alt="">';
+      html += '    <div class="thumbCover">';
+      html += '        <p class="thumbCoverTitle">' + item.title + '</p>';
+      html += '        <p class="thumbCoverDate">' + item.date + '</p>';
+      html += '    </div>';
       html += '</li>';
     });
 
-    $('ul').html(html);
+    $('.thumb').html(html);
   };
 
   smPortfolio.init = function () {
@@ -23,8 +27,13 @@ var smPortfolio = (function (d, w, $) {
     // 운영용
     var jsonSrc = '//raw.githubusercontent.com/qkrtkdals/portfolio/master/json/data.json';
 
-    $.getJSON(jsonSrc, getJSONInit);
     test();
+    includeHTML();
+
+    if ($('#home').length) {
+      $.getJSON(jsonSrc, getJSONInit);
+    }
+
   };
 
   return smPortfolio;

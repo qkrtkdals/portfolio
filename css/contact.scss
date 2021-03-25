@@ -1,0 +1,42 @@
+@charset 'utf-8';
+@import "./_partials/header";
+
+.content {
+    text-align: center;
+}
+
+.info {
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: left;
+
+    img {
+        display: block;
+        margin-bottom: 75px;
+    }
+    
+    ul {
+        li {
+            height: 23px;
+            line-height: 23px;
+            padding-left: 40px;
+            font-size: 23px;
+            letter-spacing: -0.5px;
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+    
+            &.tel {
+                background-image: url(../images/contact/ico_t.png);
+            }
+    
+            &.email {
+                background-image: url(../images/contact/ico_e.png);
+            }
+
+            &:not(:first-child) {
+                margin-top: 16px;
+            }
+        }
+    }
+}

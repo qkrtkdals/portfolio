@@ -1,0 +1,143 @@
+#header {
+  position: relative;
+  height: 178px;
+}
+
+#header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -54px;
+  display: inline-block;
+}
+
+#header .gnb {
+  width: 1250px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#header .gnb:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#header .gnb li {
+  float: left;
+  height: 100%;
+}
+
+#header .gnb li:first-child {
+  margin: 0 234px 0 465px;
+}
+
+#header .gnb li:last-child {
+  margin-left: 275px;
+}
+
+#header .gnb li a {
+  display: block;
+  height: 100%;
+  line-height: 178px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #8d8d8d;
+}
+
+body {
+  font-family: 'Noto Sans KR', dotum, snas-serif;
+  min-width: 1250px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.2px;
+  color: #161616;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.content {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 57px auto 105px;
+  text-align: center;
+}
+
+.content h1 {
+  margin-bottom: 40px;
+}
+
+.content.about .profile {
+  margin-top: 47px;
+}
+
+.content.about .profileImage {
+  width: 262px;
+  height: 262px;
+  margin: 0 auto 18px;
+  background-color: #161616;
+}
+
+.content.about .profileInfo p {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+  letter-spacing: 1.1px;
+}
+
+.content.how ol {
+  width: 1140px;
+  margin: 110px auto 0;
+}
+
+.content.how ol:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.content.how ol li {
+  position: relative;
+  float: left;
+  width: 33%;
+  color: #161616;
+  font-size: 6px;
+  line-height: 21px;
+}
+
+.content.how ol li:not(:last-child):after {
+  position: absolute;
+  top: 5px;
+  left: 100%;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #161616;
+  font-size: 0;
+}
+
+.content.how ol li .imgWrap {
+  height: 22px;
+  margin: 0 auto 17px;
+}
+
+.content.how ol li p {
+  letter-spacing: -0.1px;
+}
+
+.content.showReel .imgWrap {
+  width: 1250px;
+  height: 705px;
+  background: #161616;
+}

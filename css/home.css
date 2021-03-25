@@ -61,24 +61,32 @@ li {
   list-style: none;
 }
 
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 .content {
   width: 1250px;
   margin: 0 auto;
 }
 
-.mainView {
+.container .mainView {
   height: 325px;
   margin-bottom: 20px;
   background-color: #161616;
 }
 
-.thumb:after {
+.container .thumb:after {
   content: "";
   clear: both;
   display: block;
 }
 
-.thumbItem {
+.container .thumbItem {
   position: relative;
   float: left;
   width: 305px;
@@ -88,11 +96,11 @@ li {
   background-color: #007711;
 }
 
-.thumbItem:nth-child(4n) {
+.container .thumbItem:nth-child(4n) {
   margin-right: 0;
 }
 
-.thumbCover {
+.container .thumbCover {
   position: absolute;
   top: 0;
   left: 0;
@@ -104,7 +112,7 @@ li {
   color: #fff;
 }
 
-.thumbCover:before {
+.container .thumbCover:before {
   content: "";
   position: absolute;
   top: 0;
@@ -114,17 +122,17 @@ li {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.thumbCoverTitle, .thumbCoverDate {
+.container .thumbCoverTitle, .container .thumbCoverDate {
   position: relative;
 }
 
-.thumbCoverTitle {
+.container .thumbCoverTitle {
   font-weight: bold;
   font-size: 30px;
   line-height: 32px;
   margin-bottom: 24px;
 }
 
-.thumbCoverDate {
+.container .thumbCoverDate {
   font-size: 13px;
 }

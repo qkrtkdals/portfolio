@@ -1,0 +1,116 @@
+@charset 'utf-8';
+@import "./_partials/header";
+
+.container {
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: -2.5px;
+
+    h2 {
+        margin-bottom: 20px;
+        background-image: url(../images/detail/info.png);
+        background-repeat: no-repeat;
+    }
+
+    .content > div:not(:first-child) {
+        margin-top: 170px;
+    }
+
+    .visual {
+        &Image {
+            position: relative;
+            height: 703px;
+            background-color: $mainColor;
+            box-sizing: border-box;
+        }
+
+        &Title {
+            position: absolute;
+            left: 150px;
+            bottom: 66px;
+            color: #fff;
+            font-weight: bold;
+
+            p {
+                font-size: 65px;
+                margin-bottom: 38px;
+                letter-spacing: -1.5px;
+            }
+
+            span {
+                font-size: 30px;
+                letter-spacing: -1.5px;
+            }
+        }
+
+        &Detail {
+            @include clearfix;
+            margin-top: 45px;
+
+            .column {
+                float: left;
+                width: 305px;
+                padding-left: 40px;
+                box-sizing: border-box;
+
+                &:nth-child(2) {
+                    width: 395px;
+                }
+
+                &:last-child {
+                    width: 511px;
+                    padding-top: 17px;
+                }
+
+                h2 {
+                    height: 20px;
+                }
+            }
+
+            .client {
+                h2 {
+                    width: 88px;
+                    background-position: -10px -178px;
+                }
+            }
+
+            .production {
+                margin-top: 40px;
+
+                h2 {
+                    width: 168px;
+                    background-position: -10px -50px;
+                }
+            }
+
+            .motion {
+                h2 {
+                    width: 227px;
+                    background-position: -10px -10px;
+                }
+            }
+        }
+    }
+
+    .animation,
+    .styleFrame {
+        h2 {
+            height: 20px;
+            margin: 0 0 20px 40px;
+        }
+    }
+
+    .animation {
+        h2 {
+            height: 21px;
+            background-position: -10px -137px;
+        }
+    }
+
+    .styleFrame {
+        h2 {
+            height: 27px;
+            background-position: -10px -10px;
+        }
+    }
+}

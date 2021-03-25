@@ -1,28 +1,110 @@
-{
-    "list": [
-        {
-            "title": "SSG Live<br>- Intro video",
-            "date": "December, 2020"
-        },
-        {
-            "title": "2SSG Live<br>- Intro video",
-            "date": "December, 2020"
-        },
-        {
-            "title": "3SSG Live<br>- Intro video",
-            "date": "December, 2020"
-        },
-        {
-            "title": "4SG Live<br>- Intro video",
-            "date": "December, 2020"
-        },
-        {
-            "title": "5SSG Live<br>- Intro video",
-            "date": "December, 2020"
-        },
-        {
-            "title": "6SSG Live<br>- Intro video",
-            "date": "December, 2020"
+[
+    {
+        "id": "ssg1",
+        "title": "SSG Live",
+        "subTitle": "Intro video",
+        "date": "December, 2020",
+        "visualDetail": {
+            "client": "SSG.COM",
+            "production": "blank",
+            "motion": {
+                "director": "Park Sangmin",
+                "design": "",
+                "animation": "",
+                "design2" : "",
+                "sound": ""
+            },
+            "text": "쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌<br>aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf"
         }
-    ]
-}
+    },
+    {
+        "id": "ssg2",
+        "title": "2SSG Live",
+        "subTitle": "Intro video",
+        "date": "December, 2020",
+        "visualDetail": {
+            "client": "SSG.COM",
+            "production": "blank",
+            "motion": {
+                "director": "Park Sangmin",
+                "design": "",
+                "animation": "",
+                "design2" : "",
+                "sound": ""
+            },
+            "text": "쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌<br>aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf"
+        }
+    },
+    {
+        "id": "ssg3",
+        "title": "3SSG Live",
+        "subTitle": "Intro video",
+        "date": "December, 2020",
+        "visualDetail": {
+            "client": "SSG.COM",
+            "production": "blank",
+            "motion": {
+                "director": "Park Sangmin",
+                "design": "",
+                "animation": "",
+                "design2" : "",
+                "sound": ""
+            },
+            "text": "쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌<br>aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf"
+        }
+    },
+    {
+        "id": "ssg4",
+        "title": "4SG Live",
+        "subTitle": "Intro video",
+        "date": "December, 2020",
+        "visualDetail": {
+            "client": "SSG.COM",
+            "production": "blank",
+            "motion": {
+                "director": "Park Sangmin",
+                "design": "",
+                "animation": "",
+                "design2" : "",
+                "sound": ""
+            },
+            "text": "쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌<br>aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf"
+        }
+    },
+    {
+        "id": "ssg5",
+        "title": "5SSG Live",
+        "subTitle": "Intro video",
+        "date": "December, 2020",
+        "visualDetail": {
+            "client": "SSG.COM",
+            "production": "blank",
+            "motion": {
+                "director": "Park Sangmin",
+                "design": "",
+                "animation": "",
+                "design2" : "",
+                "sound": ""
+            },
+            "text": "쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌<br>aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf"
+        }
+    },
+    {
+        "id": "ssg6",
+        "title": "6SSG Live",
+        "subTitle": "Intro video",
+        "date": "December, 2020",
+        "visualDetail": {
+            "client": "SSG.COM",
+            "production": "blank",
+            "motion": {
+                "director": "Park Sangmin",
+                "design": "",
+                "animation": "",
+                "design2" : "",
+                "sound": ""
+            },
+            "text": "쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌고저쩌꼬오오오 쓱라이브는 어쩌고저쩌꼬오오오쓱라이브는 어쩌<br>aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf aacdsvsdvsvsbdfaacdsvsdvsvsbdfaacdsvsdvsvsbdf"
+        }
+    }
+]

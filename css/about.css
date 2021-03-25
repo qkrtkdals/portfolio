@@ -61,50 +61,58 @@ li {
   list-style: none;
 }
 
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 .content {
   width: 1250px;
   margin: 0 auto;
 }
 
-.content {
+.container .content {
   margin: 57px auto 105px;
   text-align: center;
 }
 
-.content h1 {
+.container .content h1 {
   margin-bottom: 40px;
 }
 
-.content.about .profile {
+.container .content.about .profile {
   margin-top: 47px;
 }
 
-.content.about .profileImage {
+.container .content.about .profileImage {
   width: 262px;
   height: 262px;
   margin: 0 auto 18px;
   background-color: #161616;
 }
 
-.content.about .profileInfo p {
+.container .content.about .profileInfo p {
   font-size: 12px;
   font-weight: bold;
   line-height: 15px;
   letter-spacing: 1.1px;
 }
 
-.content.how ol {
+.container .content.how ol {
   width: 1140px;
   margin: 110px auto 0;
 }
 
-.content.how ol:after {
+.container .content.how ol:after {
   content: "";
   clear: both;
   display: block;
 }
 
-.content.how ol li {
+.container .content.how ol li {
   position: relative;
   float: left;
   width: 33%;
@@ -113,7 +121,7 @@ li {
   line-height: 21px;
 }
 
-.content.how ol li:not(:last-child):after {
+.container .content.how ol li:not(:last-child):after {
   position: absolute;
   top: 5px;
   left: 100%;
@@ -127,16 +135,16 @@ li {
   font-size: 0;
 }
 
-.content.how ol li .imgWrap {
+.container .content.how ol li .imgWrap {
   height: 22px;
   margin: 0 auto 17px;
 }
 
-.content.how ol li p {
+.container .content.how ol li p {
   letter-spacing: -0.1px;
 }
 
-.content.showReel .imgWrap {
+.container .content.showReel .imgWrap {
   width: 1250px;
   height: 705px;
   background: #161616;

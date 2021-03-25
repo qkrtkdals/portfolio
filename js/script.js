@@ -67,10 +67,10 @@ var smPortfolio = (function (d, w, $) {
 
   smPortfolio.init = function () {
     // 로컬용
-    var jsonSrc = '../json/data.json';
+    // var jsonSrc = '../json/data.json';
 
     // 운영용
-    // var jsonSrc = '//raw.githubusercontent.com/qkrtkdals/portfolio/master/json/data.json';
+    var jsonSrc = '//raw.githubusercontent.com/qkrtkdals/portfolio/master/json/data.json';
 
     includeHTML();
 

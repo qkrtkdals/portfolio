@@ -103,6 +103,10 @@ iframe {
     height: 1px
 }
 
+.date {
+    display: none !important;
+}
+
 /* thema */
 /* thema_aqua */
 
@@ -125,11 +129,6 @@ iframe {
 
 .thema_aqua button.thema_apply {
     background: #1eb49f;
-}
-
-.thema_aqua .btn_post_more:hover {
-    background: #1eb49f;
-    color: #fff;
 }
 
 .thema_aqua .item_info .thema_apply {
@@ -186,11 +185,6 @@ iframe {
     background: #157ead;
 }
 
-.thema_blue .btn_post_more:hover {
-    background: #157ead;
-    color: #fff;
-}
-
 .thema_blue .item_info .thema_apply {
     color: #157ead;
 }
@@ -242,11 +236,6 @@ iframe {
 
 .thema_black button.thema_apply {
     background: #333333;
-}
-
-.thema_black .btn_post_more:hover {
-    background: #333333;
-    color: #fff;
 }
 
 .thema_black .item_info .thema_apply {
@@ -303,11 +292,6 @@ iframe {
     background: #bc92c4;
 }
 
-.thema_purple .btn_post_more:hover {
-    background: #bc92c4;
-    color: #fff;
-}
-
 .thema_purple .item_info .thema_apply {
     color: #bc92c4;
 }
@@ -360,11 +344,6 @@ iframe {
 
 .thema_orange button.thema_apply {
     background: #ff5d1e;
-}
-
-.thema_orange .btn_post_more:hover {
-    background: #ff5d1e;
-    color: #fff;
 }
 
 .thema_orange .item_info .thema_apply {
@@ -1090,6 +1069,7 @@ body {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    letter-spacing: -1px;
 }
 
 .index_type_gallery .thumbnail_post {
@@ -1281,7 +1261,18 @@ body {
 }
 
 .related_type .title_related {
+    position: relative;
     color: #111;
+
+    > img {
+        margin: 0 auto;
+    }
+
+    > a {
+        position: absolute;
+        top: 3px;
+        right: 0;
+    }
 }
 
 .list_related {
@@ -2558,7 +2549,7 @@ body {
     }
 }
 
-.index_type_common .list_gallery li.list_gallery_item:nth-child(n+8) {
+.index_type_common .list_gallery li.list_gallery_item:nth-child(n+9) {
     display: none;
 }
 
@@ -2607,6 +2598,21 @@ body {
 .revenue_unit_wrap.position_list {
     max-width: 800px;
     margin: 30px auto
+}
+
+#container .another_category {
+    border: none;
+
+    table,
+    tr,
+    th,
+    td {
+        border: none;
+    }
+
+    td {
+        display: none;
+    }
 }
 
 .btn_top {

@@ -2530,30 +2530,30 @@ body {
   }
 }
 
-#tt-body-page * {
+#tt-body-page .template_work * {
   font-family: 'Noto Sans Demilight', 'Noto Sans KR';
 }
 
-#tt-body-page .contents_style > div:not(:first-child) {
+#tt-body-page .template_work > div:not(:first-child) {
   margin-top: 170px;
 }
 
-#tt-body-page .contents_style dl::after {
+#tt-body-page .template_work dl::after {
   content: "";
   display: block;
   clear: both;
 }
 
-#tt-body-page .contents_style dl dt,
-#tt-body-page .contents_style dl dd {
+#tt-body-page .template_work dl dt,
+#tt-body-page .template_work dl dd {
   float: left;
 }
 
-#tt-body-page .contents_style dl dd::before {
+#tt-body-page .template_work dl dd::before {
   content: " - ";
 }
 
-#tt-body-page .main-visual {
+#tt-body-page .template_work .main-visual {
   table-layout: fixed;
   border: none;
   margin: 0;
@@ -2563,67 +2563,67 @@ body {
   line-height: 25px;
 }
 
-#tt-body-page .main-visual col.narrow {
+#tt-body-page .template_work .main-visual col.narrow {
   width: 300px;
 }
 
-#tt-body-page .main-visual col.wide {
+#tt-body-page .template_work .main-visual col.wide {
   width: 550px;
 }
 
-#tt-body-page .main-visual figure {
+#tt-body-page .template_work .main-visual figure {
   margin: 0;
   padding: 0;
 }
 
-#tt-body-page .main-visual figure span {
+#tt-body-page .template_work .main-visual figure span {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-#tt-body-page .main-visual tr,
-#tt-body-page .main-visual td {
+#tt-body-page .template_work .main-visual tr,
+#tt-body-page .template_work .main-visual td {
   border: none;
   vertical-align: top;
 }
 
-#tt-body-page .main-visual tr:first-child {
+#tt-body-page .template_work .main-visual tr:first-child {
   position: relative;
   height: 908px !important;
 }
 
-#tt-body-page .main-visual tr:first-child td {
+#tt-body-page .template_work .main-visual tr:first-child td {
   padding: 0;
 }
 
-#tt-body-page .main-visual tr:first-child .imageblock {
+#tt-body-page .template_work .main-visual tr:first-child .imageblock {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
 
-#tt-body-page .main-visual tr:first-child img {
+#tt-body-page .template_work .main-visual tr:first-child img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#tt-body-page .main-visual tr:first-child .main-title {
+#tt-body-page .template_work .main-visual tr:first-child .main-title {
   position: absolute;
   left: 150px;
   bottom: 60px;
 }
 
-#tt-body-page .main-visual tr:first-child .main-title h1,
-#tt-body-page .main-visual tr:first-child .main-title h2 {
+#tt-body-page .template_work .main-visual tr:first-child .main-title h1,
+#tt-body-page .template_work .main-visual tr:first-child .main-title h2 {
   font-family: 'Noto Sans KR';
   font-weight: 600;
 }
 
-#tt-body-page .main-visual tr:first-child .main-title h1 {
+#tt-body-page .template_work .main-visual tr:first-child .main-title h1 {
   font-size: 65px;
   margin-bottom: 38px;
   letter-spacing: -1.5px;
@@ -2631,20 +2631,20 @@ body {
   color: #fff;
 }
 
-#tt-body-page .main-visual tr:first-child .main-title h2 {
+#tt-body-page .template_work .main-visual tr:first-child .main-title h2 {
   font-size: 30px;
   letter-spacing: -1.5px;
   margin: 5px 0 0 0;
   color: #fff;
 }
 
-#tt-body-page .main-visual td {
+#tt-body-page .template_work .main-visual td {
   position: relative;
   margin: 0;
   padding: 50px 0 0 40px;
 }
 
-#tt-body-page .main-visual td > h2 {
+#tt-body-page .template_work .main-visual td > h2 {
   height: 20px;
   margin: 0 0 20px 0;
   padding: 0;
@@ -2652,118 +2652,118 @@ body {
   background-repeat: no-repeat;
 }
 
-#tt-body-page .main-visual td.td-client h2 {
+#tt-body-page .template_work .main-visual td.td-client h2 {
   width: 88px;
   background-position: -10px -178px;
 }
 
-#tt-body-page .main-visual td.td-production h2 {
+#tt-body-page .template_work .main-visual td.td-production h2 {
   width: 168px;
   background-position: -10px -50px;
 }
 
-#tt-body-page .main-visual td.td-motion h2 {
+#tt-body-page .template_work .main-visual td.td-motion h2 {
   width: 227px;
   background-position: -10px -10px;
 }
 
-#tt-body-page .main-visual td.td-motion + td {
+#tt-body-page .template_work .main-visual td.td-motion + td {
   padding-top: 65px;
   padding-right: 15px;
 }
 
-#tt-body-page .animation h1,
-#tt-body-page .style h1 {
+#tt-body-page .template_work .animation h1,
+#tt-body-page .template_work .style h1 {
   margin: 0 0 20px 40px;
   background-image: url("https://qkrtkdals.github.io/portfolio/images/detail/info.png");
   background-repeat: no-repeat;
 }
 
-#tt-body-page .animation table,
-#tt-body-page .animation tr,
-#tt-body-page .animation td,
-#tt-body-page .style table,
-#tt-body-page .style tr,
-#tt-body-page .style td {
+#tt-body-page .template_work .animation table,
+#tt-body-page .template_work .animation tr,
+#tt-body-page .template_work .animation td,
+#tt-body-page .template_work .style table,
+#tt-body-page .template_work .style tr,
+#tt-body-page .template_work .style td {
   border: none;
   vertical-align: top;
   margin: 0;
   padding: 0;
 }
 
-#tt-body-page .animation tr figure,
-#tt-body-page .style tr figure {
+#tt-body-page .template_work .animation tr figure,
+#tt-body-page .template_work .style tr figure {
   height: 350px;
 }
 
-#tt-body-page .animation tr figure.imageblock,
-#tt-body-page .style tr figure.imageblock {
+#tt-body-page .template_work .animation tr figure.imageblock,
+#tt-body-page .template_work .style tr figure.imageblock {
   display: block;
   margin: 0;
   padding: 0;
 }
 
-#tt-body-page .animation tr figure.imageblock img,
-#tt-body-page .style tr figure.imageblock img {
+#tt-body-page .template_work .animation tr figure.imageblock img,
+#tt-body-page .template_work .style tr figure.imageblock img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#tt-body-page .animation tr span,
-#tt-body-page .style tr span {
+#tt-body-page .template_work .animation tr span,
+#tt-body-page .template_work .style tr span {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-#tt-body-page .animation h1 {
+#tt-body-page .template_work .animation h1 {
   height: 21px;
   background-position: -10px -137px;
 }
 
-#tt-body-page .animation tr:nth-child(even) figure {
+#tt-body-page .template_work .animation tr:nth-child(even) figure {
   height: 700px;
 }
 
-#tt-body-page .style h1 {
+#tt-body-page .template_work .style h1 {
   height: 27px;
   background-position: -10px -90px;
 }
 
-#tt-body-page .template_footer dl {
+#tt-body-page .template_work .template_footer dl {
   margin-top: 6px;
   font-size: 20px;
   letter-spacing: -.5px;
 }
 
-#tt-body-page .template_footer dl.important {
+#tt-body-page .template_work .template_footer dl.important {
   margin: 50px 0;
 }
 
-#tt-body-page .template_footer dl dt,
-#tt-body-page .template_footer dl dd {
+#tt-body-page .template_work .template_footer dl dt,
+#tt-body-page .template_work .template_footer dl dd {
   font-family: 'Noto Sans KR';
   font-weight: 600;
 }
 
-#tt-body-page .template_footer > p {
+#tt-body-page .template_work .template_footer > p {
   margin-top: 55px !important;
   font-size: 12px;
   line-height: 23px;
 }
 
-#tt-body-page .template_footer_logo {
+#tt-body-page .template_work .template_footer_logo {
   margin: 165px 0;
   text-align: center;
 }
 
-#tt-body-page .template_footer_logo img {
+#tt-body-page .template_work .template_footer_logo img {
   margin: 0 auto;
 }
 
-#tt-body-page .template_footer_logo span {
+#tt-body-page .template_work .template_footer_logo span {
   display: block;
   margin-top: 12px;
   font-size: 12px;

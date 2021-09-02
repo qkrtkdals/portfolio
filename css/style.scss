@@ -2634,32 +2634,30 @@ body {
     }
 }
 
-#tt-body-page {
+#tt-body-page .template_work {
     * {
         font-family: 'Noto Sans Demilight', 'Noto Sans KR';
     }
 
-    .contents_style {
-        > div:not(:first-child) {
-            margin-top: 170px;
+    > div:not(:first-child) {
+        margin-top: 170px;
+    }
+
+    dl {
+        &::after {
+            content: "";
+            display: block;
+            clear: both;
         }
 
-        dl {
-            &::after {
-                content: "";
-                display: block;
-                clear: both;
-            }
+        dt,
+        dd {
+            float: left;
+        }
 
-            dt,
-            dd {
-                float: left;
-            }
-
-            dd {
-                &::before {
-                    content: " - ";
-                }
+        dd {
+            &::before {
+                content: " - ";
             }
         }
     }

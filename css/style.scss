@@ -2790,11 +2790,11 @@ body {
         }
     }
 
-    .animation {
+    .animation,
+    .style {
         h1 {
             height: 21px;
             margin: 0 0 20px 40px;
-            background-position: -10px -137px;
             background-image: url("https://qkrtkdals.github.io/portfolio/images/detail/info.png");
             background-repeat: no-repeat;
         }
@@ -2809,20 +2809,20 @@ body {
         }
 
         tr {
-            &:nth-child(odd) figure span {
-                // height: 350px !important;
-
-            }
-
-            &:nth-child(even) figure span {
-                // height: 700px !important;
-
-            }
-
             figure {
+                height: 350px;
+            }
+
+            figure.imageblock {
                 display: block;
                 margin: 0;
                 padding: 0;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
 
             span {
@@ -2830,6 +2830,24 @@ body {
                 width: 100%;
                 height: 100%;
             }
+        }
+    }
+
+    .animation {
+        h1 {
+            background-position: -10px -137px;
+        }
+
+        tr {
+            &:nth-child(even) figure {
+                height: 700px;
+            }
+        }
+    }
+
+    .style {
+        h1 {
+            background-position: -10px -90px;
         }
     }
 }

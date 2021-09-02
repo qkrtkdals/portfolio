@@ -2643,6 +2643,25 @@ body {
         > div:not(:first-child) {
             margin-top: 170px;
         }
+
+        dl {
+            &::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            dt,
+            dd {
+                float: left;
+            }
+
+            dd {
+                &::before {
+                    content: " - ";
+                }
+            }
+        }
     }
 
     .main-visual {
@@ -2768,32 +2787,12 @@ body {
                     padding-right: 15px;
                 }
             }
-
-            dl {
-                &::after {
-                    content: "";
-                    display: block;
-                    clear: both;
-                }
-
-                dt,
-                dd {
-                    float: left;
-                }
-
-                dd {
-                    &::before {
-                        content: " - ";
-                    }
-                }
-            }
         }
     }
 
     .animation,
     .style {
         h1 {
-            height: 21px;
             margin: 0 0 20px 40px;
             background-image: url("https://qkrtkdals.github.io/portfolio/images/detail/info.png");
             background-repeat: no-repeat;
@@ -2835,6 +2834,7 @@ body {
 
     .animation {
         h1 {
+            height: 21px;
             background-position: -10px -137px;
         }
 
@@ -2847,7 +2847,47 @@ body {
 
     .style {
         h1 {
+            height: 27px;
             background-position: -10px -90px;
+        }
+    }
+
+    .template_footer {
+        dl {
+            margin-top: 6px;
+            font-size: 20px;
+            letter-spacing: -.5px;
+
+            &.important {
+                margin: 50px 0;
+            }
+
+            dt,
+            dd {
+                font-family: 'Noto Sans KR';
+                font-weight: 600;
+            }
+        }
+
+        > p {
+            margin-top: 55px !important;
+            font-size: 12px;
+            line-height: 23px;
+        }
+
+        &_logo {
+            margin: 165px 0;
+            text-align: center;
+
+            img {
+                margin: 0 auto;
+            }
+
+            span {
+                display: block;
+                margin-top: 12px;
+                font-size: 12px;
+            }
         }
     }
 }

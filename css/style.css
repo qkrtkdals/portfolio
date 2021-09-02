@@ -2538,6 +2538,21 @@ body {
   margin-top: 170px;
 }
 
+#tt-body-page .contents_style dl::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#tt-body-page .contents_style dl dt,
+#tt-body-page .contents_style dl dd {
+  float: left;
+}
+
+#tt-body-page .contents_style dl dd::before {
+  content: " - ";
+}
+
 #tt-body-page .main-visual {
   table-layout: fixed;
   border: none;
@@ -2657,24 +2672,8 @@ body {
   padding-right: 15px;
 }
 
-#tt-body-page .main-visual td dl::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-#tt-body-page .main-visual td dl dt,
-#tt-body-page .main-visual td dl dd {
-  float: left;
-}
-
-#tt-body-page .main-visual td dl dd::before {
-  content: " - ";
-}
-
 #tt-body-page .animation h1,
 #tt-body-page .style h1 {
-  height: 21px;
   margin: 0 0 20px 40px;
   background-image: url("https://qkrtkdals.github.io/portfolio/images/detail/info.png");
   background-repeat: no-repeat;
@@ -2720,6 +2719,7 @@ body {
 }
 
 #tt-body-page .animation h1 {
+  height: 21px;
   background-position: -10px -137px;
 }
 
@@ -2728,5 +2728,43 @@ body {
 }
 
 #tt-body-page .style h1 {
+  height: 27px;
   background-position: -10px -90px;
+}
+
+#tt-body-page .template_footer dl {
+  margin-top: 6px;
+  font-size: 20px;
+  letter-spacing: -.5px;
+}
+
+#tt-body-page .template_footer dl.important {
+  margin: 50px 0;
+}
+
+#tt-body-page .template_footer dl dt,
+#tt-body-page .template_footer dl dd {
+  font-family: 'Noto Sans KR';
+  font-weight: 600;
+}
+
+#tt-body-page .template_footer > p {
+  margin-top: 55px !important;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+#tt-body-page .template_footer_logo {
+  margin: 165px 0;
+  text-align: center;
+}
+
+#tt-body-page .template_footer_logo img {
+  margin: 0 auto;
+}
+
+#tt-body-page .template_footer_logo span {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
 }

@@ -1064,6 +1064,7 @@ body {
   color: #fff;
   font-size: 25px;
   line-height: 37px;
+  max-height: 74px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -2527,4 +2528,175 @@ body {
     width: 43.19vw;
     margin-top: 13.88vw;
   }
+}
+
+#tt-body-page * {
+  font-family: 'Noto Sans Demilight', 'Noto Sans KR';
+}
+
+#tt-body-page .contents_style > div:not(:first-child) {
+  margin-top: 170px;
+}
+
+#tt-body-page .main-visual {
+  table-layout: fixed;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#tt-body-page .main-visual col.narrow {
+  width: 300px;
+}
+
+#tt-body-page .main-visual col.wide {
+  width: 550px;
+}
+
+#tt-body-page .main-visual figure {
+  margin: 0;
+  padding: 0;
+}
+
+#tt-body-page .main-visual figure span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#tt-body-page .main-visual tr,
+#tt-body-page .main-visual td {
+  border: none;
+  vertical-align: top;
+}
+
+#tt-body-page .main-visual tr:first-child {
+  position: relative;
+  height: 908px !important;
+}
+
+#tt-body-page .main-visual tr:first-child td {
+  padding: 0;
+}
+
+#tt-body-page .main-visual tr:first-child .imageblock {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#tt-body-page .main-visual tr:first-child img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#tt-body-page .main-visual tr:first-child .main-title {
+  position: absolute;
+  left: 150px;
+  bottom: 60px;
+}
+
+#tt-body-page .main-visual tr:first-child .main-title h1,
+#tt-body-page .main-visual tr:first-child .main-title h2 {
+  font-family: 'Noto Sans KR';
+  font-weight: 600;
+}
+
+#tt-body-page .main-visual tr:first-child .main-title h1 {
+  font-size: 65px;
+  margin-bottom: 38px;
+  letter-spacing: -1.5px;
+  margin: 0;
+  color: #fff;
+}
+
+#tt-body-page .main-visual tr:first-child .main-title h2 {
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  margin: 5px 0 0 0;
+  color: #fff;
+}
+
+#tt-body-page .main-visual td {
+  position: relative;
+  margin: 0;
+  padding: 50px 0 0 40px;
+}
+
+#tt-body-page .main-visual td > h2 {
+  height: 20px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  background-image: url("https://qkrtkdals.github.io/portfolio/images/detail/info.png");
+  background-repeat: no-repeat;
+}
+
+#tt-body-page .main-visual td.td-client h2 {
+  width: 88px;
+  background-position: -10px -178px;
+}
+
+#tt-body-page .main-visual td.td-production h2 {
+  width: 168px;
+  background-position: -10px -50px;
+}
+
+#tt-body-page .main-visual td.td-motion h2 {
+  width: 227px;
+  background-position: -10px -10px;
+}
+
+#tt-body-page .main-visual td.td-motion + td {
+  padding-top: 65px;
+  padding-right: 15px;
+}
+
+#tt-body-page .main-visual td dl::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#tt-body-page .main-visual td dl dt,
+#tt-body-page .main-visual td dl dd {
+  float: left;
+}
+
+#tt-body-page .main-visual td dl dd::before {
+  content: " - ";
+}
+
+#tt-body-page .animation h1 {
+  height: 21px;
+  margin: 0 0 20px 40px;
+  background-position: -10px -137px;
+  background-image: url("https://qkrtkdals.github.io/portfolio/images/detail/info.png");
+  background-repeat: no-repeat;
+}
+
+#tt-body-page .animation table,
+#tt-body-page .animation tr,
+#tt-body-page .animation td {
+  border: none;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+#tt-body-page .animation tr figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#tt-body-page .animation tr span {
+  display: block;
+  width: 100%;
+  height: 100%;
 }

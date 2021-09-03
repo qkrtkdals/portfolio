@@ -2597,18 +2597,34 @@ body {
   padding: 0;
 }
 
-#tt-body-page .template_work .main-visual tr:first-child .imageblock {
-  position: relative;
+#tt-body-page .template_work .main-visual tr:first-child figure.imageblock {
   display: block;
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-#tt-body-page .template_work .main-visual tr:first-child img {
-  width: 100%;
-  height: 100%;
+#tt-body-page .template_work .main-visual tr:first-child figure.imageblock img {
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+#tt-body-page .template_work .main-visual tr:first-child span {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 #tt-body-page .template_work .main-visual tr:first-child .main-title {
@@ -2705,14 +2721,23 @@ body {
 
 #tt-body-page .template_work .animation tr figure.imageblock img,
 #tt-body-page .template_work .style tr figure.imageblock img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 #tt-body-page .template_work .animation tr span,
 #tt-body-page .template_work .style tr span {
+  position: relative;
+  overflow: hidden;
   display: block;
   width: 100%;
   height: 100%;
@@ -2768,3 +2793,4 @@ body {
   margin-top: 12px;
   font-size: 12px;
 }
+/*# sourceMappingURL=style.css.map */

@@ -601,6 +601,12 @@ body {
     }
 }
 
+@media screen and (max-width: 1250px) {
+    .inner_header .custom_nav {
+        display: none;
+    }
+}
+
 .inner_header .link_logo {
     display: block;
     width: 100%;
@@ -2803,6 +2809,20 @@ body {
                 }
             }
 
+            &.td-tag {
+                h2 {
+                    width: 48px;
+                    background-position: -10px -219px;
+                }
+            }
+
+            &.td-publishing {
+                h2 {
+                    width: 155px;
+                    background-position: -10px -258px;
+                }
+            }
+
             &.td-motion {
                 h2 {
                         width: 227px;
@@ -2842,9 +2862,15 @@ body {
 
             figure.imageblock {
                 &:after {
-                    background-color: #ff4436;
+                    background-color: #ff1200;
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 1250px) {
+        .main-visual td {
+            display: block;
         }
     }
 

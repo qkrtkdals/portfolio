@@ -733,6 +733,7 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  font-family: 'Noto Sans KR';
 }
 
 .article_content .info_post .date {
@@ -1187,6 +1188,7 @@ body {
   margin-bottom: 20px;
   line-height: 24px;
   -webkit-line-clamp: 2;
+  max-height: 48px;
 }
 
 .index_type_horizontal_line4 .txt_post {
@@ -2225,7 +2227,7 @@ body {
   .area_menu {
     display: none;
     position: relative;
-    margin-top: 83px;
+    margin-top: 82px;
     width: 100%;
     height: auto;
     background: rgba(246, 246, 246, 0.95);
@@ -2573,6 +2575,12 @@ body {
   width: 300px;
 }
 
+@media screen and (max-width: 1250px) {
+  #tt-body-page .template_work .main-visual col.narrow {
+    width: 100%;
+  }
+}
+
 #tt-body-page .template_work .main-visual col.wide {
   width: 550px;
 }
@@ -2670,6 +2678,28 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 1250px) {
+  #tt-body-page .template_work .main-visual tr:first-child .main-title {
+    left: 20px;
+    bottom: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 20px;
+  }
+  #tt-body-page .template_work .main-visual tr:first-child .main-title h1 {
+    font-size: 12vw;
+  }
+  #tt-body-page .template_work .main-visual tr:first-child .main-title h2 {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  #tt-body-page .template_work .main-visual tr:first-child {
+    height: auto !important;
+  }
+}
+
 #tt-body-page .template_work .main-visual td {
   position: relative;
   margin: 0;
@@ -2687,6 +2717,12 @@ body {
 #tt-body-page .template_work .main-visual td.td-client h2 {
   width: 88px;
   background-position: -10px -178px;
+}
+
+@media screen and (max-width: 1250px) {
+  #tt-body-page .template_work .main-visual td.td-client {
+    padding-top: 50px;
+  }
 }
 
 #tt-body-page .template_work .main-visual td.td-production h2 {
@@ -2714,6 +2750,12 @@ body {
   padding-right: 15px;
 }
 
+@media screen and (max-width: 1250px) {
+  #tt-body-page .template_work .main-visual td {
+    padding: 20px 0 0 20px;
+  }
+}
+
 #tt-body-page .template_work .main-visual.theme-blue figure.imageblock:after {
   background-color: #0037ff;
 }
@@ -2732,8 +2774,18 @@ body {
 }
 
 @media screen and (max-width: 1250px) {
+  #tt-body-page .template_work .main-visual {
+    table-layout: inherit;
+  }
   #tt-body-page .template_work .main-visual td {
     display: block;
+    width: 100% !important;
+  }
+  #tt-body-page .template_work .main-visual tr:not(:first-child) td {
+    height: auto !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 20px;
   }
 }
 

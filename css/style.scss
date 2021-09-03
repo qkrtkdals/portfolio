@@ -727,6 +727,7 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    font-family: 'Noto Sans KR';
 }
 
 .article_content .info_post .date {
@@ -1195,7 +1196,7 @@ body {
     margin-bottom: 20px;
     line-height: 24px;
     -webkit-line-clamp: 2;
-
+    max-height: 48px;
 }
 
 .index_type_horizontal_line4 .txt_post {
@@ -2289,7 +2290,7 @@ body {
     .area_menu {
         display: none;
         position: relative;
-        margin-top: 83px;
+        margin-top: 82px;
         width: 100%;
         height: auto;
         background: rgba(246, 246, 246, 0.95);
@@ -2682,6 +2683,12 @@ body {
                 width: 300px;
             }
 
+            @media screen and (max-width: 1250px) {
+                &.narrow {
+                    width: 100%;
+                }
+            }
+
             &.wide {
                 width: 550px;
             }
@@ -2780,6 +2787,29 @@ body {
                     color: #fff;
                 }
             }
+
+            @media screen and (max-width: 1250px) {
+                .main-title {
+                    left: 20px;
+                    bottom: 20px;
+                    box-sizing: border-box;
+                    padding-right: 20px;
+
+                    h1 {
+                        font-size: 12vw;
+                    }
+
+                    h2 {
+                        font-size: 7vw;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 1250px) {
+            tr:first-child {
+                height: auto !important;
+            }
         }
 
         td {
@@ -2799,6 +2829,12 @@ body {
                 h2 {
                     width: 88px;
                     background-position: -10px -178px;
+                }
+            }
+
+            @media screen and (max-width: 1250px) {
+                &.td-client {
+                    padding-top: 50px;
                 }
             }
 
@@ -2836,6 +2872,12 @@ body {
             }
         }
 
+        @media screen and (max-width: 1250px) {
+            td {
+                padding: 20px 0 0 20px;
+            }
+        }
+
         &.theme-blue {
             figure.imageblock {
                 &:after {
@@ -2869,8 +2911,19 @@ body {
     }
 
     @media screen and (max-width: 1250px) {
-        .main-visual td {
-            display: block;
+        .main-visual {
+            table-layout: inherit;
+
+            td {
+                display: block;
+                width: 100% !important;
+            }
+            
+            tr:not(:first-child) td {
+                height: auto !important;
+                box-sizing: border-box;
+                padding-right: 20px;
+            }
         }
     }
 

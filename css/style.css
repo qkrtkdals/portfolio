@@ -618,8 +618,8 @@ body {
 .inner_header .link_logo {
   display: block;
   width: 100%;
-  height: 80px;
-  background-size: auto 80px;
+  height: 70px;
+  background-size: auto 70px;
   background-repeat: no-repeat;
   background-position: center;
 }

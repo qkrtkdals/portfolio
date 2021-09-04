@@ -915,11 +915,11 @@ body {
     }
 }
 
-.article_content .link_article:hover .thumbnail_post {
-    opacity: 0.8;
-}
+// .article_content .link_article:hover .thumbnail_post {
+//     opacity: 0.8;
+// }
 
-.article_content .thumbnail_post:hover {
+.list_gallery_item .article_content .thumbnail_post:hover {
     opacity: 0.8;
 }
 
@@ -2733,7 +2733,8 @@ body {
                     content: "";
                     width: 100%;
                     height: 100%;
-                    opacity: .7;
+                    opacity: .5;
+                    background-color: #000;
                 }
 
                 img {
@@ -2878,36 +2879,36 @@ body {
             }
         }
 
-        &.theme-blue {
-            figure.imageblock {
-                &:after {
-                    background-color: #0037ff;
-                }
-            }
-        }
+        // &.theme-blue {
+        //     figure.imageblock {
+        //         &:after {
+        //             background-color: #0037ff;
+        //         }
+        //     }
+        // }
 
-        &.theme-lightblue {
-            figure.imageblock {
-                &:after {
-                    background-color: #3aacc7;
-                }
-            }
-        }
+        // &.theme-lightblue {
+        //     figure.imageblock {
+        //         &:after {
+        //             background-color: #3aacc7;
+        //         }
+        //     }
+        // }
 
-        &.theme-white {
-            .main-title {
-                h1,
-                h2 {
-                    color: #000 !important;
-                }
-            }
+        // &.theme-white {
+        //     .main-title {
+        //         h1,
+        //         h2 {
+        //             color: #000 !important;
+        //         }
+        //     }
 
-            figure.imageblock {
-                &:after {
-                    background-color: #ff1200;
-                }
-            }
-        }
+        //     figure.imageblock {
+        //         &:after {
+        //             background-color: #ff1200;
+        //         }
+        //     }
+        // }
     }
 
     @media screen and (max-width: 1250px) {
